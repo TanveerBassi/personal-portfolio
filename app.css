@@ -33,9 +33,10 @@ body {
   text-decoration: underline;
 }
 
-.card {
+.parent-card {
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: space-between;
   text-align: center;
 }
 
