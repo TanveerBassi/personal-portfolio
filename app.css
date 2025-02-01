@@ -1,5 +1,8 @@
 body {
   background-color: white;
+  min-height: 400px;
+  margin-bottom: 100px;
+  clear: both;
 }
 
 .topnav {
@@ -17,7 +20,7 @@ body {
   padding: 18px 16px;
   text-decoration: none;
   font-size: 17px;
-  font-family: "Courier New", monospace;
+  font-family: "Apple Chancery", monospace;
 }
 
 .topnav a:hover {
@@ -29,7 +32,7 @@ body {
   padding-top: 50px;
   text-align: center;
   color: black;
-  font-family: "Courier New", monospace;
+  font-family: "Apple Chancery", monospace;
   text-decoration: underline;
 }
 
@@ -47,34 +50,25 @@ body {
 }
 
 .footer {
+  position: fixed;
   display: flex;
-  justify-content: space-evenly;
   left: 0;
   bottom: 0;
   width: 100%;
-  color: white;
   background-color: black;
+  color: white;
   text-align: center;
-  font-family: "Courier New", monospace;
+  justify-content: space-evenly;
+  font-family: "Apple Chancery", monospace;
   font-size: 17px;
 }
 
-.footer:hover {
-  color: black;
-  background-color: #f2f2f2;
-}
-
 .footer-e-mail {
-  color: white;
-}
-
-.footer-e-mail:hover {
-  color: black;
-  background-color: #f2f2f2;
+  color: f2f2f2;
 }
 
 .container {
-  font-family: "Courier New", monospace;
+  font-family: "Apple Chancery", monospace;
   box-shadow: 3px 5px black, -1em 0 0.4em black;
 }
 
@@ -90,7 +84,7 @@ body {
   font-weight: bold;
   text-align: center;
   color: black;
-  font-family: "Courier New", monospace;
+  font-family: "Apple Chancery", monospace;
   text-decoration: underline;
 }
 
@@ -98,5 +92,5 @@ body {
   font-size: 14px;
   text-align: center;
   color: black;
-  font-family: "Courier New", monospace;
+  font-family: "Apple Chancery", monospace;
 }
