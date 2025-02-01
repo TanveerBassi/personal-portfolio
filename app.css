@@ -47,7 +47,6 @@ body {
 }
 
 .footer {
-  position: fixed;
   display: flex;
   justify-content: space-evenly;
   left: 0;
@@ -77,6 +76,12 @@ body {
 .container {
   font-family: "Courier New", monospace;
   box-shadow: 3px 5px black, -1em 0 0.4em black;
+}
+
+.container:hover {
+  background-color: lightblue;
+  color: black;
+  cursor: pointer;
 }
 
 .services-card {
